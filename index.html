@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+  <html lang="fr">
+    <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>Portfolio Erika</title>
+      <link href='//fonts.googleapis.com/css?family=Montserrat:thin,extra-light,light,100,200,300,400,500,600,700,800' rel='stylesheet' type='text/css'>
+      <link rel="stylesheet" href="style.css">
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+      <link rel="icon" href="./images/logo_dark.png">
+  </head>
+  <body>
+    <header>
+      <nav>
+        <div id="header_container">
+            <a href="#"><img class="logo" src="./images/logo.png" alt="logo"></a>
+          <div id="nav_bar">
+            <a href="#apropos">A PROPOS</a>
+            <a href="#competences">COMPETENCES</a>
+            <a href="#projets">PROJETS</a>
+            <a href="#contacts">CONTACTS</a>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <main>
+      <div id="banner_container">
+        <video autoplay muted playsinline preload="auto">
+          <source src="./images/banner.mov" type="video/quicktime">
+          <source src="./images/banner.mp4" type="video/mp4">
+        </video>
+      </div>
+  <section id="apropos">
+    <h1 class="section-title">A PROPOS</h1>
+    <div class="apropos">
+          <img src="images/cadre_photo_moi.jpg" alt="Photo d'Erika" class="photo-erika">
+          <p class="texte_apropos">Je m’appelle Erika, j’ai 23 ans et je suis actuellement en troisième année de bachelier en infographie. Curieuse et passionnée par le monde visuel, je suis animée par une véritable soif d’apprendre et de progresser. J’aime explorer de nouvelles techniques, expérimenter et repousser mes limites pour affiner mon regard créatif.
+Transformer mes idées en projets concrets est ce qui me motive le plus : donner du sens à ce que je crée, raconter une histoire à travers une image ou une animation, et apporter une vraie valeur ajoutée aux projets auxquels je participe. Au fil de mon parcours, j’ai appris à développer une approche à la fois artistique et réfléchie, où chaque choix visuel a sa raison d’être.
+          <p class="texte_apropos" id="colonne">À travers ce rôle, j’aimerais également contribuer à instaurer une communication positive, authentique et engageante, capable de renforcer le lien entre une marque et son public. Je suis motivée par l’idée d’analyser les interactions, de suivre les tendances, d’adapter les stratégies de contenu et de proposer des idées innovantes pour améliorer continuellement l’expérience des utilisateurs. En intégrant une équipe motivante et créative, je souhaite mettre mon sens de l’écoute, ma sensibilité visuelle et mon envie d’apprendre au service de projets qui inspirent et rassemblent.
+Mon ambition est d’allier création visuelle et communication afin de construire une carrière épanouissante, humaine et pleine de sens.
+    </div>
+  </section>
+  <section id="competences">
+    <h1 class="section-title">COMPETENCES</h1>
+    <div id="img_competences">
+      <img src="images/logo_photo.png" alt="Photoshop">
+      <img src="images/logo_illu.png" alt="Illustrator">
+      <img src="images/logo_aes.png" alt="After Effects">
+      <img src="images/logo_ind.png" alt="InDesign">
+    </div>
+  </section>
+  <section id="projets">
+    <h1 class="section-title">PROJETS</h1>
+    <div id="section3_projects">
+      <a href="#proj1" class="thumb"><img src="./images/empreinte1.png" alt="Projet 1"></a>
+      <a href="#proj2" class="thumb"><img src="./images/empreinte2.png" alt="Projet 2"></a>
+      <a href="#proj3" class="thumb"><img src="./images/empreinte3.png" alt="Projet 3"></a>
+      <a href="#proj4" class="thumb"><img src="./images/empreinte4.png" alt="Projet 4"></a>
+      <a href="#proj5" class="thumb"><img src="./images/empreinte5.png" alt="Projet 5"></a>
+      <a href="#proj6" class="thumb"><img src="./images/empreinte6.png" alt="Projet 6"></a>
+    </div>
+    <div id="proj1" class="lightbox">
+      <a href="#!" class="lightbox_close">&times;</a>
+      <img src="./images/empreinte1.png" alt="Projet 1">
+    </div>
+    <div id="proj2" class="lightbox">
+      <a href="#!" class="lightbox_close">&times;</a>
+      <img src="./images/empreinte2.png" alt="Projet 2">
+      </div>
+    <div id="proj3" class="lightbox">
+      <a href="#!" class="lightbox_close">&times;</a>
+      <img src="./images/empreinte3.png" alt="Projet 3">
+    </div>
+    <div id="proj4" class="lightbox">
+      <a href="#!" class="lightbox_close">&times;</a>
+      <img src="./images/empreinte4.png" alt="Projet 4">
+    </div>
+    <div id="proj5" class="lightbox">
+      <a href="#!" class="lightbox_close">&times;</a>
+      <img src="./images/empreinte5.png" alt="Projet 5">
+    </div>
+    <div id="proj6" class="lightbox">
+      <a href="#!" class="lightbox_close">&times;</a>
+      <img src="./images/empreinte6.png" alt="Projet 6">
+    </div>
+  </section>
+  <section id="contacts">
+    <div>
+      <h1 class="section-title">CONTACTS</h1>
+    </div>
+    <div id="formulaire_contact">
+      <form id="contact_form" action="mailto:erikast2011@hotmail.com?subject=Contact%20depuis%20le%20portfolio" method="post" enctype="text/plain">
+        <div class="label">
+          <label for="name">Nom</label>
+          <input
+            id="name"
+            name="Nom"
+            type="text"
+            inputmode="text"
+            autocomplete="name"
+            spellcheck="false"
+            minlength="3" maxlength="60"
+            required
+            placeholder="Nom"
+            title="Saisis ton nom.">
+        </div>
+        <div class="label">
+          <label for="email">E-mail</label>
+          <input 
+            type="email"
+            id="email"
+            name="Email"
+            inputmode="email"
+            autocomplete="email"
+            placeholder="Adresse e-mail"
+            spellcheck="false"
+            required
+            title="Saisis une adresse mail valide (Ex. prenom.nom@exemple.com)">
+        </div>
+        <div class="label">
+          <label for="message">Message</label>
+          <textarea 
+            id="message" 
+            name="Message"
+            spellcheck="true"
+            required
+            placeholder="Votre message."
+            title="Saisis ton message."
+            rows="4">
+          </textarea>
+          </div>
+          <button id="button" type="submit">Envoyer</button>
+        </form>
+      <div id="avion">
+        <img src="./images/avion.png" alt="Avion">
+      </div>
+    </div>
+  </section>
+  </main>
+  <footer>
+    <div id="footer_container">
+      <div id="logo_bottom">
+        <img class="logo" src="./images/logo.png" alt="logo">
+      </div>
+      <div>
+        <p id="signature">Designed by Erika Steenwegen</p>
+      </div>
+    </div>
+  </footer>
+  </body>
+</html>
